@@ -3,7 +3,7 @@ layout: default
 permalink: /
 ---
 
-Collection of python scripts (standalone and interfaces to other projects) which can be run be online to facilitate user interaction. [Thebe javascript library] runs the code on [public BinderHub](https://mybinder.org/).
+Collection of python scripts (standalone and interfaces to other projects) which can be run be online to facilitate user interaction. [Thebe javascript library](https://thebe.readthedocs.io) runs the code on [public BinderHub](https://mybinder.org/).
 
 [DEVSIM TCAD Semiconductor Device Simulator](devsim)
 
