@@ -2,7 +2,7 @@
 layout: default
 title: 2D Semiconductor solver
 repo: gsomani/semiconductor_solver
-branch: master
+branch: main
 permalink: /ssolver_2d
 ---
 
