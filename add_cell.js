@@ -4,5 +4,4 @@ function add_code_cell(div)
   ele.setAttribute("data-executable", "true");
   ele.setAttribute("data-language", "python");
   document.getElementById(div).appendChild(ele);
-  thebe.bootstrap();
 }
