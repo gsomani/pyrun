@@ -17,8 +17,16 @@
 
 <script type="text/javascript" src="https://unpkg.com/thebe@latest"></script>
 
-<script src="add_cell.js"></script>
-
+<script>
+	function add_code_cell(div)
+	{
+	  var ele = document.createElement("pre");
+	  ele.setAttribute("data-executable", "true");
+	  ele.setAttribute("data-language", "python");
+	  document.getElementById(div).appendChild(ele);
+	  thebelab.bootstrap();
+	}
 </script>
+
 
 {%- endif -%}
