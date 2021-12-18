@@ -10,7 +10,7 @@ Collection of python scripts (standalone and interfaces to other projects) which
 
 [प्रत्याहार](pratyahar)
 
-[Devnagari Unicode](devnagari)
+[Devnagari(देवनागरी)  Unicode](devnagari)
 
 [DEVSIM TCAD Semiconductor Device Simulator](devsim)
 

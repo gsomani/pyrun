@@ -51,6 +51,6 @@ def count_set_bits_pop_count(numbers,bits):
         sum_bits.append(pop_count(n,bitmask,bits,1))
     return sum_bits
 
-numbers = list(range(1<<21))
+numbers = range(1<<21)
 
 print(count_set_bits_pop_count(numbers,32) == count_set_bits(numbers,count_set_bits_karnighan) == count_set_bits(numbers,count_set_bits_naive))
