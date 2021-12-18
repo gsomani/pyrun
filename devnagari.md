@@ -1,6 +1,6 @@
----
+﻿---
 layout: default
-title: Devnagari Unicode
+title: Devnagari(देवनागरी) Unicode
 repo: gsomani/pyrun
 branch: main
 permalink: /devnagari
