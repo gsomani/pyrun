@@ -1,5 +1,12 @@
 import numpy as np
 
+def count_set_bits(n):
+    i = 0
+    while(n):
+        n &= (n - 1)
+        i += 1
+    return i
+ 
 def int_to_bit_array(num,bits): 
     bit = np.empty(bits,dtype=int) 
     for i in range(bits): 
@@ -14,7 +21,7 @@ def bits_to_int(bits):
     return num
 
 def disparity(num,bits): 
-    return 2*num.bit_count() - bits
+    return 2*count_set_bits(num) - bits
 
 def xored(num,bits): 
     bit = int_to_bit_array(num,bits) 
@@ -27,7 +34,7 @@ def xored(num,bits):
     return x 
 
 def data_word(num):
-    ones = num.bit_count()
+    ones = count_set_bits(num)
     x = int(xored(num,8))
     y = x ^ 0b010101011
     if(ones<4 or (ones==4 and (num&1))):
