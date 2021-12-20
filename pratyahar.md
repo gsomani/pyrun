@@ -1,6 +1,6 @@
 ---
 layout: default
-title: प्रत्याहर
+title: प्रत्याहार
 repo: gsomani/pyrun
 branch: main
 permalink: /pratyahar
