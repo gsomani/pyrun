@@ -20,4 +20,4 @@ Collection of python scripts (standalone and interfaces to other projects) which
 
 [Rational representation from decimal representation](rational)
 
-[Permutation generation](permute)
+[Permutation generation using Heap's algorithm](permute)
