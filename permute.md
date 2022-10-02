@@ -7,5 +7,5 @@ permalink: /permute
 ---
 
 <pre data-executable data-language="python">
-{%- include py/heappermute.py -%}
+{%- include py/heapPermute.py -%}
 </pre>
