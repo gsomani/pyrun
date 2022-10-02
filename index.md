@@ -17,3 +17,7 @@ Collection of python scripts (standalone and interfaces to other projects) which
 [Semiconductor solver (1D)](ssolver_1d)
 
 [Semiconductor solver (2D)](ssolver_2d)
+
+[Rational representation from decimal representation](rational)
+
+[Permutation generation](permute)
